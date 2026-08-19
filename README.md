@@ -13,6 +13,7 @@ Arctic Code Vault Contributor, Pull Shark x3, Pair Extraordinaire — code prese
 | [document-viewer-web-component](https://github.com/quincarter/document-viewer-web-component) | Standalone web component for rendering documents of any file type | 6 | 1 |
 | [brew-me-app-lit](https://github.com/quincarter/brew-me-app-lit) | Coffee ratio calculator, pour-over timer, and brew guide PWA (Lit 3 + TypeScript), with optional Bluetooth scale telemetry | 1 | – |
 | [ive-got-this-extension](https://github.com/quincarter/ive-got-this-extension) | Browser extension for Emby/Jellyfin + Overseerr/Jellyseerr, sideloadable on Chrome and Edge | 1 | – |
+| [component-library-starter](https://github.com/quincarter/component-library-starter) | Starter repo for a component library | 9 | 1 |
 | [create-lit-app](https://github.com/quincarter/create-lit-app) | CLI to scaffold a new Lit app | – | – |
 | [app-shell-starter](https://github.com/quincarter/app-shell-starter) | Lit app shell starter template | – | – |
 | [hass-decluttering-card-explorer](https://github.com/quincarter/hass-decluttering-card-explorer) | Home Assistant Lovelace card for browsing decluttering-card templates | – | – |
