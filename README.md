@@ -1,10 +1,11 @@
 # Quin Carter
 
-Lead Engineer @ Capital One · TypeScript/JavaScript · building web components and small tools
+## Lead Engineer @ Capital One · TypeScript/JavaScript · building web components and small tools
 
-[quincarter.com](https://quincarter.com) · Richmond, VA · [78 public repos](https://github.com/quincarter?tab=repositories) · 9 followers
+### [quincarter.com](https://quincarter.com) · Richmond, VA · [78 public repos](https://github.com/quincarter?tab=repositories) · 9 followers
 
-Arctic Code Vault Contributor, Pull Shark x3, Pair Extraordinaire — code preserved in GitHub's 2020 Arctic Code Vault archive, still shipping.
+> [!NOTE]
+> Arctic Code Vault Contributor, Pull Shark x3, Pair Extraordinaire — code preserved in GitHub's 2020 Arctic Code Vault archive, still shipping.
 
 ## Projects
 
