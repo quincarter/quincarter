@@ -29,4 +29,3 @@ TypeScript, JavaScript, Lit, Web Components, Kotlin, Home Assistant
 ## Activity
 
 ![Quin's GitHub metrics](github-metrics.svg)
-![Streak](https://streak-stats.demolab.com/?user=quincarter&hide_border=true)
