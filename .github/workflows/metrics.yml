@@ -19,3 +19,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           base: header, activity, community, repositories, metadata
           plugin_languages: yes
+          config_display: large

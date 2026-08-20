@@ -28,4 +28,4 @@ TypeScript, JavaScript, Lit, Web Components, Kotlin, Home Assistant
 
 ## Activity
 
-![Quin's GitHub metrics](github-metrics.svg)
+<img src="github-metrics.svg" alt="Quin's GitHub metrics" width="100%" />
