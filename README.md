@@ -22,6 +22,7 @@
 | [two-week-budget-docker](https://github.com/quincarter/two-week-budget-docker) | Docker Compose deployment for Two Week Budget, a self-hosted bi-weekly budget app | 1 | – |
 | [app-shell-starter](https://github.com/quincarter/app-shell-starter) | Lit app shell starter template | – | – |
 | [dnd-syncer](https://github.com/quincarter/dnd-syncer) | Cross-platform system to sync Do Not Disturb/Focus status and notifications in real-time between Android and desktop (macOS, Windows, Linux) over encrypted local Wi-Fi | – | – |
+| [marvel-champions-digital-game](https://github.com/quincarter/marvel-champions-digital-game) | Digital, rules-accurate implementation of Marvel Champions: The Card Game with a deterministic headless engine and Phaser 4 client | – | – |
 
 Currently building out BrewMe (adding Aeropress, Hario Switch, and Clever Dripper support), dnd-syncer (DND/notification sync between Android and desktop), and Slidebox, an Android sliding-block puzzle game built with Kotlin + Jetpack Compose.
 
