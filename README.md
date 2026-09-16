@@ -11,9 +11,10 @@
 
 | Repo | Description | Stars | Forks |
 |---|---|---|---|
-| [component-library-starter](https://github.com/quincarter/component-library-starter) | Starter repo for a component library | 9 | 1 |
+| [component-library-starter](https://github.com/quincarter/component-library-starter) | Starter repo for a component library | 10 | 1 |
 | [document-viewer-web-component](https://github.com/quincarter/document-viewer-web-component) | Standalone web component for rendering documents of any file type | 6 | 1 |
-| [llms-txt-files-and-converters](https://github.com/quincarter/llms-txt-files-and-converters) | Python scripts and pre-converted LLM-context files for turning docs/codebases into `llms.txt`-style ingestion text | 3 | – |
+| [ClaudeUsage-MacOS-App-Widget](https://github.com/quincarter/ClaudeUsage-MacOS-App-Widget) | Native macOS menu bar app and desktop widgets to track Claude usage across multiple accounts and monitor global peak hours in real time | 5 | – |
+| [llms-txt-files-and-converters](https://github.com/quincarter/llms-txt-files-and-converters) | Python scripts and pre-converted LLM-context files for turning docs/codebases into `llms.txt`-style ingestion text | 4 | – |
 | [hass-decluttering-card-explorer](https://github.com/quincarter/hass-decluttering-card-explorer) | Home Assistant Lovelace card for browsing decluttering-card templates | 2 | – |
 | [create-lit-app](https://github.com/quincarter/create-lit-app) | CLI to scaffold a new Lit app | 2 | – |
 | [brew-me-app-lit](https://github.com/quincarter/brew-me-app-lit) | Coffee ratio calculator, pour-over timer, and brew guide PWA (Lit 3 + TypeScript), with optional Bluetooth scale telemetry | 1 | – |
