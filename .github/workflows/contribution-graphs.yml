@@ -16,6 +16,16 @@ jobs:
       contents: write
     timeout-minutes: 15
     steps:
+      # snk is a Docker action that runs as root; if it created dist/, the
+      # Pac-Man step (running as the runner user) could not write into it
+      - name: Create output folder
+        run: mkdir -p dist
+
+      - name: Generate Pac-Man
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
       - name: Generate snake
         uses: Platane/snk@v3
         with:
@@ -23,17 +33,6 @@ jobs:
           outputs: |
             dist/github-snake.svg?palette=github-light&color_snake=#a78bfa&color_dots=#ebedf0,#c7e6ff,#7ddbff,#4fbcff,#a78bfa
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#fef3c7&color_dots=#0e1a30,#1a2a4a,#2f6fa8,#4fbcff,#a78bfa
-
-      - name: Generate Pac-Man
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
-
-      - name: Collect Pac-Man output
-        run: |
-          mkdir -p dist
-          find . -name '*pacman*.svg' -not -path './dist/*' -exec cp {} dist/ \; || true
-          ls -la dist
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
@@ -64,5 +63,9 @@ jobs:
           git add -A profile-3d-contrib
           git diff --cached --quiet && exit 0
           git commit -m "Update 3D contribution graph - [Skip GitHub Action]"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push
+          # Other workflows push to main too; retry if we lose the race
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
