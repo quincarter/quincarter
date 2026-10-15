@@ -8,7 +8,7 @@
 <a href="https://github.com/quincarter?tab=followers"><img src="https://img.shields.io/github/followers/quincarter?style=for-the-badge&logo=github&logoColor=4ade80&label=followers&labelColor=050810&color=1a2a4a" alt="followers" /></a>
 
 <a href="https://quincarter.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=4FBCFF&center=true&vCenter=true&width=720&lines=Lead+Engineer+%40+Capital+One;TypeScript+%C2%B7+JavaScript+%C2%B7+Lit;Building+web+components+and+small+tools;Arctic+Code+Vault+Contributor+%E2%9D%84%EF%B8%8F;Currently+brewing%3A+BrewMe%2C+dnd-syncer%2C+Slidebox" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=4FBCFF&center=true&vCenter=true&width=720&lines=Lead+Engineer+%40+Capital+One;TypeScript+%C2%B7+JavaScript+%C2%B7+Lit;Building+web+components+and+small+tools;Arctic+Code+Vault+Contributor+%E2%9D%84%EF%B8%8F;Currently+building%3A+Marvel+Champions%2C+create-lit-app%2C+BrewMe" alt="Typing intro" />
 </a>
 
 </div>
@@ -45,9 +45,9 @@
 
 <img src="assets/header-now.svg" alt="### nodes (currently active)" width="100%" />
 
-- **`n01` ☕ [BrewMe](https://github.com/quincarter/brew-me-app-lit):** adding Aeropress, Hario Switch, and Clever Dripper support
-- **`n02` 🔕 [dnd-syncer](https://github.com/quincarter/dnd-syncer):** DND/notification sync between Android and desktop
-- **`n03` 🧱 Slidebox:** an Android sliding-block puzzle game built with Kotlin + Jetpack Compose
+- **`n01` 🦸 [Marvel Champions digital game](https://github.com/quincarter/marvel-champions-digital-game):** a rules-accurate digital take on Marvel Champions: The Card Game, with a deterministic headless engine and a Phaser 4 client
+- **`n02` ⚡ [create-lit-app](https://github.com/quincarter/create-lit-app):** a CLI to scaffold a new Lit app
+- **`n03` ☕ [BrewMe](https://github.com/quincarter/brew-me-app-lit):** adding Aeropress, Hario Switch, and Clever Dripper support
 
 <img src="assets/header-stack.svg" alt="### stack" width="100%" />
 
