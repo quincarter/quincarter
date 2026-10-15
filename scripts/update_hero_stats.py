@@ -2,7 +2,8 @@
 """Refresh the live numbers in assets/hero.svg and README.md.
 
 Pulls public repo count, follower count, and total stars (across public,
-non-fork repos) from the GitHub API. Set GITHUB_TOKEN to avoid the
+non-fork repos) from the GitHub API, and sorts the README projects table
+by star count, most-starred first. Set GITHUB_TOKEN to avoid the
 unauthenticated rate limit.
 
     python3 scripts/update_hero_stats.py [username]
@@ -27,20 +28,45 @@ def get(url):
         return json.load(res)
 
 
-def total_stars(user):
-    stars, page = 0, 1
+def repo_stars(user):
+    """Map of repo name -> star count for the user's own public repos."""
+    stars, page = {}, 1
     while True:
         repos = get(f"https://api.github.com/users/{user}/repos?per_page=100&type=owner&page={page}")
-        stars += sum(r["stargazers_count"] for r in repos if not r["fork"])
+        stars.update({r["name"]: r["stargazers_count"] for r in repos if not r["fork"]})
         if len(repos) < 100:
             return stars
         page += 1
 
 
-def sub(text, pattern, value, path):
+ROW = re.compile(r"^\|.*?\]\(https://github\.com/[^/]+/([^)/]+)\)")
+
+
+def sort_projects(md, stars):
+    """Sort each run of project table rows by stars, descending.
+
+    Ties keep their current order; repos the API doesn't know sink to the bottom.
+    """
+    lines = md.split("\n")
+    i = 0
+    while i < len(lines):
+        if not ROW.match(lines[i]):
+            i += 1
+            continue
+        j = i
+        while j < len(lines) and ROW.match(lines[j]):
+            j += 1
+        lines[i:j] = sorted(lines[i:j], key=lambda line: -stars.get(ROW.match(line).group(1), -1))
+        i = j
+    return "\n".join(lines)
+
+
+def sub(text, pattern, value, path, required=True):
     new, n = re.subn(pattern, lambda m: f"{m.group(1)}{value}{m.group(2)}", text)
     if n == 0:
-        sys.exit(f"pattern not found in {path}: {pattern}")
+        if required:
+            sys.exit(f"pattern not found in {path}: {pattern}")
+        print(f"skipped (not in {path.name}): {pattern}")
     return new
 
 
@@ -49,8 +75,9 @@ def main():
     stats = {
         "repos": profile["public_repos"],
         "followers": profile["followers"],
-        "stars": total_stars(USER),
     }
+    stars = repo_stars(USER)
+    stats["stars"] = sum(stars.values())
     print(stats)
 
     hero = ROOT / "assets" / "hero.svg"
@@ -61,10 +88,12 @@ def main():
 
     readme = ROOT / "README.md"
     md = readme.read_text()
-    md = sub(md, r"(badge/)\d+(_public_repos-)", stats["repos"], readme)
-    md = sub(md, r"(alt=\")\d+( public repos\")", stats["repos"], readme)
-    md = sub(md, r"(\[)\d+( public repos\]\(https://github\.com/[^)]*\) · )", stats["repos"], readme)
-    md = sub(md, r"( · )\d+( followers\n)", stats["followers"], readme)
+    # README mentions are optional so editing the README never breaks the run
+    md = sub(md, r"(badge/)\d+(_public_repos-)", stats["repos"], readme, required=False)
+    md = sub(md, r"(alt=\")\d+( public repos\")", stats["repos"], readme, required=False)
+    md = sub(md, r"(\[)\d+( public repos\]\(https://github\.com/[^)]*\) · )", stats["repos"], readme, required=False)
+    md = sub(md, r"( · )\d+( followers\n)", stats["followers"], readme, required=False)
+    md = sort_projects(md, stars)
     readme.write_text(md)
 
 
