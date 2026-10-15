@@ -7,6 +7,11 @@ on:
     branches:
       - main
 
+# METRICS_TOKEN: a personal access token (classic) with read:user and repo
+# (or public_repo) scopes. The default GITHUB_TOKEN can only see this repo,
+# so without it the cards report a single repository and its languages.
+# Commits are still made with the workflow's own token.
+
 jobs:
   metrics:
     runs-on: ubuntu-latest
@@ -17,7 +22,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           base: header, activity, community, repositories, metadata
           plugin_languages: yes
           config_display: large
@@ -27,7 +32,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics-projects.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           base: ""
           config_display: large
           config_timezone: America/New_York
