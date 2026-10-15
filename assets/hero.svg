@@ -104,13 +104,13 @@
 <text x="840" y="158" font-size="11" letter-spacing="3" fill="#4fbcff">LEAD ENGINEER · CAPITAL ONE</text>
 <text x="840" y="178" font-size="11" letter-spacing="3" fill="#a78bfa">TS · LIT · WEB COMPONENTS</text>
 <text x="840" y="228" font-size="11" letter-spacing="1.5" fill="#a5b4cf">public repos</text>
-<text id="stat-repos" x="1150" y="228" font-size="13" text-anchor="end" fill="#fef3c7">80</text>
+<text id="stat-repos" x="1150" y="228" font-size="13" text-anchor="end" fill="#fef3c7">84</text>
 <text x="840" y="250" font-size="11" letter-spacing="1.5" fill="#a5b4cf">featured nodes</text>
 <text x="1150" y="250" font-size="13" text-anchor="end" fill="#fef3c7">10</text>
 <text x="840" y="272" font-size="11" letter-spacing="1.5" fill="#a5b4cf">total stars</text>
-<text id="stat-stars" x="1150" y="272" font-size="13" text-anchor="end" fill="#fef3c7">33</text>
+<text id="stat-stars" x="1150" y="272" font-size="13" text-anchor="end" fill="#fef3c7">55</text>
 <text x="840" y="294" font-size="11" letter-spacing="1.5" fill="#a5b4cf">followers</text>
-<text id="stat-followers" x="1150" y="294" font-size="13" text-anchor="end" fill="#fef3c7">9</text>
+<text id="stat-followers" x="1150" y="294" font-size="13" text-anchor="end" fill="#fef3c7">11</text>
 <text x="840" y="316" font-size="11" letter-spacing="1.5" fill="#a5b4cf">pull shark</text>
 <text x="1150" y="316" font-size="13" text-anchor="end" fill="#fef3c7">x3</text>
 <text x="840" y="358" font-size="11" letter-spacing="3" fill="#4fbcff">→ TRANSMIT</text>

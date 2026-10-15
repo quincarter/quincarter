@@ -4,7 +4,7 @@
 
 <a href="https://quincarter.com"><img src="https://img.shields.io/badge/quincarter.com-050810?style=for-the-badge&logo=googlechrome&logoColor=4fbcff" alt="quincarter.com" /></a>
 <img src="https://img.shields.io/badge/Richmond,_VA-050810?style=for-the-badge&logo=googlemaps&logoColor=a78bfa" alt="Richmond, VA" />
-<a href="https://github.com/quincarter?tab=repositories"><img src="https://img.shields.io/badge/80_public_repos-050810?style=for-the-badge&logo=github&logoColor=fef3c7" alt="80 public repos" /></a>
+<a href="https://github.com/quincarter?tab=repositories"><img src="https://img.shields.io/badge/84_public_repos-050810?style=for-the-badge&logo=github&logoColor=fef3c7" alt="84 public repos" /></a>
 <a href="https://github.com/quincarter?tab=followers"><img src="https://img.shields.io/github/followers/quincarter?style=for-the-badge&logo=github&logoColor=4ade80&label=followers&labelColor=050810&color=1a2a4a" alt="followers" /></a>
 
 <a href="https://quincarter.com">
@@ -17,7 +17,7 @@
 
 ## Lead Engineer @ Capital One · TypeScript/JavaScript · building web components and small tools
 
-### [quincarter.com](https://quincarter.com) · Richmond, VA · [80 public repos](https://github.com/quincarter?tab=repositories) · 9 followers
+### [quincarter.com](https://quincarter.com) · Richmond, VA · [84 public repos](https://github.com/quincarter?tab=repositories) · 11 followers
 
 > [!NOTE]
 > 🏆 **Arctic Code Vault Contributor, Pull Shark x3, Pair Extraordinaire**: code preserved in GitHub's 2020 Arctic Code Vault archive, still shipping.
