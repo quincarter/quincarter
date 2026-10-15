@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="84" viewBox="0 0 600 84" role="img" aria-label="### transmission">
+<defs><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><path id="p" d="M24 66 L576 66"/><radialGradient id="h"><stop offset="0" stop-color="#4fbcff" stop-opacity="0.85"/><stop offset="1" stop-color="#4fbcff" stop-opacity="0"/></radialGradient></defs>
+<rect width="600" height="84" rx="10" fill="#050810"/>
+<g stroke="#0e1a30" stroke-width="0.6"><line x1="80" y1="0" x2="80" y2="84"/><line x1="180" y1="0" x2="180" y2="84"/><line x1="280" y1="0" x2="280" y2="84"/><line x1="380" y1="0" x2="380" y2="84"/><line x1="480" y1="0" x2="480" y2="84"/><line x1="580" y1="0" x2="580" y2="84"/></g>
+<use href="#p" xlink:href="#p" stroke="#1a2a4a" stroke-width="1"/>
+<circle cx="40" cy="34" r="15" fill="url(#h)"><animate attributeName="r" values="12;20;12" dur="2.6s" repeatCount="indefinite"/></circle><circle cx="40" cy="34" r="5" fill="#4fbcff"/>
+<text x="68" y="44" font-family="'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="30" letter-spacing="1" fill="#fef3c7">### transmission</text>
+<g filter="url(#glow)">
+<circle r="3.4" fill="#7ddbff" opacity="0"><animateMotion dur="4.5s" begin="0.0s" repeatCount="indefinite"><mpath href="#p" xlink:href="#p"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="4.5s" begin="0.0s" repeatCount="indefinite"/></circle>
+<circle r="3.4" fill="#c4b5fd" opacity="0"><animateMotion dur="5.4s" begin="1.3s" repeatCount="indefinite"><mpath href="#p" xlink:href="#p"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="5.4s" begin="1.3s" repeatCount="indefinite"/></circle>
+</g></svg>

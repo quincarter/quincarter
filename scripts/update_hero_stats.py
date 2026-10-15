@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh the live numbers in assets/hero.svg and README.md.
+"""Refresh the live numbers in the hero SVGs (desktop + phone) and README.md.
 
 Pulls public repo count, follower count, and total stars (across public,
 non-fork repos) from the GitHub API, and sorts the README projects table
@@ -80,11 +80,12 @@ def main():
     stats["stars"] = sum(stars.values())
     print(stats)
 
-    hero = ROOT / "assets" / "hero.svg"
-    svg = hero.read_text()
-    for key, value in stats.items():
-        svg = sub(svg, rf'(<text id="stat-{key}"[^>]*>)[^<]*(</text>)', value, hero)
-    hero.write_text(svg)
+    # desktop and phone versions of the hero carry the same stat ids
+    for hero in (ROOT / "assets" / "hero.svg", ROOT / "assets" / "hero-mobile.svg"):
+        svg = hero.read_text()
+        for key, value in stats.items():
+            svg = sub(svg, rf'(<text id="stat-{key}"[^>]*>)[^<]*(</text>)', value, hero)
+        hero.write_text(svg)
 
     readme = ROOT / "README.md"
     md = readme.read_text()
