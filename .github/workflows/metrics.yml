@@ -13,6 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
+      # Overview card: header, activity, community, repos, languages
       - uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
@@ -20,3 +21,19 @@ jobs:
           base: header, activity, community, repositories, metadata
           plugin_languages: yes
           config_display: large
+          config_timezone: America/New_York
+
+      # Featured project cards + language breakdown
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-projects.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          config_display: large
+          config_timezone: America/New_York
+          plugin_repositories: yes
+          plugin_repositories_featured: component-library-starter, document-viewer-web-component, ClaudeUsage-MacOS-App-Widget, llms-txt-files-and-converters, brew-me-app-lit, dnd-syncer
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
