@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - scripts/update_hero_stats.py
+      - scripts/activity_graph.py
       - .github/workflows/hero-stats.yml
 
 jobs:
@@ -24,11 +25,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Draw commit activity graph
+        # Don't let a graph failure block saving the hero stats
+        continue-on-error: true
+        run: python3 scripts/activity_graph.py "${{ github.repository_owner }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+
       - name: Commit & push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add assets/hero.svg README.md
+          git add assets/hero.svg assets/activity-graph.svg README.md
           git diff --cached --quiet && exit 0
           git commit -m "Update hero stats - [Skip GitHub Action]"
           # Other workflows push to main too; retry if we lose the race

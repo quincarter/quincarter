@@ -9,23 +9,13 @@ on:
       - main
 
 jobs:
-  # Snake + Pac-Man animations, published together to the `output` branch
+  # Snake animations, published to the `output` branch
   games:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     timeout-minutes: 15
     steps:
-      # snk is a Docker action that runs as root; if it created dist/, the
-      # Pac-Man step (running as the runner user) could not write into it
-      - name: Create output folder
-        run: mkdir -p dist
-
-      - name: Generate Pac-Man
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
-
       - name: Generate snake
         uses: Platane/snk@v3
         with:

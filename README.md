@@ -75,11 +75,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/quincarter/quincarter/output/pacman-contribution-graph.svg" alt="Pac-Man eating the contribution graph" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=quincarter&bg_color=050810&color=a5b4cf&line=4fbcff&point=fef3c7&area=true&area_color=a78bfa&title_color=fef3c7&hide_border=true&radius=8&custom_title=commit%20signals%20%C2%B7%20last%2031%20days" alt="Commit activity graph" width="100%" />
+  <img src="assets/activity-graph.svg" alt="Commit activity over the last 31 days" width="100%" />
 </p>
 
 <img src="github-metrics.svg" alt="Quin's GitHub metrics" width="100%" />
