@@ -15,13 +15,6 @@
 
 <img src="assets/header-transmission.svg" alt="### transmission" width="100%" />
 
-## Lead Engineer @ Capital One · TypeScript/JavaScript · building web components and small tools
-
-### [quincarter.com](https://quincarter.com) · Richmond, VA · [84 public repos](https://github.com/quincarter?tab=repositories) · 11 followers
-
-> [!NOTE]
-> 🏆 **Arctic Code Vault Contributor, Pull Shark x3, Pair Extraordinaire**: code preserved in GitHub's 2020 Arctic Code Vault archive, still shipping.
-
 <p align="center">
   <img src="https://img.shields.io/badge/Arctic_Code_Vault-Contributor-4fbcff?style=flat-square&labelColor=050810&logo=snowflake&logoColor=4fbcff" alt="Arctic Code Vault Contributor" />
   <img src="https://img.shields.io/badge/Pull_Shark-x3-a78bfa?style=flat-square&labelColor=050810&logo=github&logoColor=a78bfa" alt="Pull Shark x3" />
