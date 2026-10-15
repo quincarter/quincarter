@@ -37,10 +37,12 @@ def total_stars(user):
         page += 1
 
 
-def sub(text, pattern, value, path):
+def sub(text, pattern, value, path, required=True):
     new, n = re.subn(pattern, lambda m: f"{m.group(1)}{value}{m.group(2)}", text)
     if n == 0:
-        sys.exit(f"pattern not found in {path}: {pattern}")
+        if required:
+            sys.exit(f"pattern not found in {path}: {pattern}")
+        print(f"skipped (not in {path.name}): {pattern}")
     return new
 
 
@@ -61,10 +63,11 @@ def main():
 
     readme = ROOT / "README.md"
     md = readme.read_text()
-    md = sub(md, r"(badge/)\d+(_public_repos-)", stats["repos"], readme)
-    md = sub(md, r"(alt=\")\d+( public repos\")", stats["repos"], readme)
-    md = sub(md, r"(\[)\d+( public repos\]\(https://github\.com/[^)]*\) · )", stats["repos"], readme)
-    md = sub(md, r"( · )\d+( followers\n)", stats["followers"], readme)
+    # README mentions are optional so editing the README never breaks the run
+    md = sub(md, r"(badge/)\d+(_public_repos-)", stats["repos"], readme, required=False)
+    md = sub(md, r"(alt=\")\d+( public repos\")", stats["repos"], readme, required=False)
+    md = sub(md, r"(\[)\d+( public repos\]\(https://github\.com/[^)]*\) · )", stats["repos"], readme, required=False)
+    md = sub(md, r"( · )\d+( followers\n)", stats["followers"], readme, required=False)
     readme.write_text(md)
 
 
