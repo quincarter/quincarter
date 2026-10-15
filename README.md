@@ -47,7 +47,7 @@
 
 - **`n01` 🦸 [Marvel Champions digital game](https://github.com/quincarter/marvel-champions-digital-game):** a rules-accurate digital take on Marvel Champions: The Card Game, with a deterministic headless engine and a Phaser 4 client
 - **`n02` ⚡ [create-lit-app](https://github.com/quincarter/create-lit-app):** a CLI to scaffold a new Lit app
-- **`n03` ☕ [BrewMe](https://github.com/quincarter/brew-me-app-lit):** adding Aeropress, Hario Switch, and Clever Dripper support
+- **`n03` ☕ [BrewMe](https://github.com/quincarter/brew-me-app-lit):** a coffee ratio calculator, pour-over timer, and brew guide PWA (Lit 3 + TypeScript), with optional Bluetooth scale telemetry
 
 <img src="assets/header-stack.svg" alt="### stack" width="100%" />
 
