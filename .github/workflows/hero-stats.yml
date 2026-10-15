@@ -1,0 +1,35 @@
+name: Hero stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/update_hero_stats.py
+      - .github/workflows/hero-stats.yml
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh numbers in hero.svg and README
+        run: python3 scripts/update_hero_stats.py "${{ github.repository_owner }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit & push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/hero.svg README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Update hero stats - [Skip GitHub Action]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
