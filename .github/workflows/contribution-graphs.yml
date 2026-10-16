@@ -43,7 +43,7 @@ jobs:
 
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          # Read-only PAT for full stats (see metrics.yml); falls back to the repo token
+          # Optional read-only PAT for fuller stats; falls back to the repo token
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 

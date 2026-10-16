@@ -38,8 +38,8 @@ BLUE, VIOLET, CREAM, MUTED, PULSE = "#4fbcff", "#a78bfa", "#fef3c7", "#a5b4cf", 
 MONO = "'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 # Canvas, margins, font sizes and x-label spacing per output
-DESKTOP = dict(W=1200, H=320, left=70, right=40, top=80, bottom=50,
-               title=20, sub=10, total=20, axis=10, label_every=5, dot=3.2, stroke=2.5)
+DESKTOP = dict(W=1200, H=360, left=76, right=40, top=104, bottom=58,
+               title=28, sub=15, total=28, axis=15, label_every=5, dot=4.5, stroke=3)
 MOBILE = dict(W=600, H=420, left=56, right=28, top=110, bottom=56,
               title=28, sub=15, total=30, axis=16, label_every=10, dot=5, stroke=4)
 

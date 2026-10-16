@@ -34,12 +34,51 @@
   <img src="assets/header-projects.svg" alt="### nodes: projects" width="100%" />
 </picture>
 
-<p align="center">
-  <picture>
-    <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/quincarter/quincarter/main/assets/projects-mobile.svg" />
-    <img src="assets/projects.svg" alt="Featured project cards and languages across my repos" width="100%" />
-  </picture>
-</p>
+<!-- featured-cards:start -->
+
+<a href="https://github.com/quincarter/marvel-champions-digital-game">
+<picture>
+  <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/quincarter/quincarter/main/assets/cards/marvel-champions-digital-game-mobile.svg" />
+  <img src="assets/cards/marvel-champions-digital-game.svg" alt="marvel-champions-digital-game" width="100%" />
+</picture>
+</a>
+
+<a href="https://github.com/quincarter/component-library-starter">
+<picture>
+  <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/quincarter/quincarter/main/assets/cards/component-library-starter-mobile.svg" />
+  <img src="assets/cards/component-library-starter.svg" alt="component-library-starter" width="100%" />
+</picture>
+</a>
+
+<a href="https://github.com/quincarter/document-viewer-web-component">
+<picture>
+  <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/quincarter/quincarter/main/assets/cards/document-viewer-web-component-mobile.svg" />
+  <img src="assets/cards/document-viewer-web-component.svg" alt="document-viewer-web-component" width="100%" />
+</picture>
+</a>
+
+<a href="https://github.com/quincarter/ClaudeUsage-MacOS-App-Widget">
+<picture>
+  <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/quincarter/quincarter/main/assets/cards/ClaudeUsage-MacOS-App-Widget-mobile.svg" />
+  <img src="assets/cards/ClaudeUsage-MacOS-App-Widget.svg" alt="ClaudeUsage-MacOS-App-Widget" width="100%" />
+</picture>
+</a>
+
+<a href="https://github.com/quincarter/brew-me-app-lit">
+<picture>
+  <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/quincarter/quincarter/main/assets/cards/brew-me-app-lit-mobile.svg" />
+  <img src="assets/cards/brew-me-app-lit.svg" alt="brew-me-app-lit" width="100%" />
+</picture>
+</a>
+
+<a href="https://github.com/quincarter/dnd-syncer">
+<picture>
+  <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/quincarter/quincarter/main/assets/cards/dnd-syncer-mobile.svg" />
+  <img src="assets/cards/dnd-syncer.svg" alt="dnd-syncer" width="100%" />
+</picture>
+</a>
+
+<!-- featured-cards:end -->
 
 | | Repo | Description | Stars | Forks |
 |:-:|---|---|:-:|:-:|
@@ -104,7 +143,10 @@
   </picture>
 </p>
 
-<img src="github-metrics.svg" alt="Quin's GitHub metrics" width="100%" />
+<picture>
+  <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/quincarter/quincarter/main/assets/stats-mobile.svg" />
+  <img src="assets/stats.svg" alt="GitHub activity stats and every language used" width="100%" />
+</picture>
 
 <picture>
   <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/quincarter/quincarter/main/assets/header-endpoints-mobile.svg" />
