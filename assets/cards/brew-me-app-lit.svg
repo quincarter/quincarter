@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="brew-me-app-lit: A coffee ratio calculator, pour-over timer, and brew guide PWA — built with Lit 3 + TypeScript, with optional Bluetooth scale/monitor telemetry.">
+<style>text{font-family:'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>
+<rect x="1" y="1" width="1198" height="208" rx="12" fill="#0a1222" stroke="#1a2a4a" stroke-width="2"/>
+<text x="30" y="58" font-size="28" fill="#4fbcff">brew-me-app-lit</text>
+<text x="1170" y="58" font-size="28" text-anchor="end" fill="#a5b4cf">↗</text>
+<text x="30" y="106.5" font-size="21" fill="#a5b4cf">A coffee ratio calculator, pour-over timer, and brew guide PWA — built with Lit 3 +</text>
+<text x="30" y="136.9" font-size="21" fill="#a5b4cf">TypeScript, with optional Bluetooth scale/monitor telemetry.</text>
+<circle cx="37" cy="173.0" r="7" fill="#3178c6"/>
+<text x="54" y="180" font-size="20" fill="#fef3c7" xml:space="preserve">TypeScript   ★ 2   ⑂ 0</text>
+</svg>

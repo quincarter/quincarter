@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="261" viewBox="0 0 600 261" role="img" aria-label="document-viewer-web-component: Standalone Web component for rendering documents of any file type">
+<style>text{font-family:'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>
+<rect x="1" y="1" width="598" height="259" rx="12" fill="#0a1222" stroke="#1a2a4a" stroke-width="2"/>
+<text x="26" y="52" font-size="26" fill="#4fbcff">document-viewer-web-component</text>
+<text x="574" y="52" font-size="26" text-anchor="end" fill="#a5b4cf">↗</text>
+<text x="26" y="100.5" font-size="21" fill="#a5b4cf">Standalone Web component for rendering</text>
+<text x="26" y="130.9" font-size="21" fill="#a5b4cf">documents of any file type</text>
+<circle cx="33" cy="228.0" r="7" fill="#3178c6"/>
+<text x="50" y="235" font-size="20" fill="#fef3c7" xml:space="preserve">TypeScript   ★ 6   ⑂ 1</text>
+</svg>

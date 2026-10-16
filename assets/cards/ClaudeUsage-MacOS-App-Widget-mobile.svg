@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="261" viewBox="0 0 600 261" role="img" aria-label="ClaudeUsage-MacOS-App-Widget: Native macOS menu bar app and desktop widgets to track Claude usage across multiple accounts and monitor global peak hours in real time.">
+<style>text{font-family:'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>
+<rect x="1" y="1" width="598" height="259" rx="12" fill="#0a1222" stroke="#1a2a4a" stroke-width="2"/>
+<text x="26" y="52" font-size="26" fill="#4fbcff">ClaudeUsage-MacOS-App-Widget</text>
+<text x="574" y="52" font-size="26" text-anchor="end" fill="#a5b4cf">↗</text>
+<text x="26" y="100.5" font-size="21" fill="#a5b4cf">Native macOS menu bar app and desktop</text>
+<text x="26" y="130.9" font-size="21" fill="#a5b4cf">widgets to track Claude usage across</text>
+<text x="26" y="161.3" font-size="21" fill="#a5b4cf">multiple accounts and monitor global peak</text>
+<text x="26" y="191.8" font-size="21" fill="#a5b4cf">hours in real time.</text>
+<circle cx="33" cy="228.0" r="7" fill="#f05138"/>
+<text x="50" y="235" font-size="20" fill="#fef3c7" xml:space="preserve">Swift   ★ 5   ⑂ 0</text>
+</svg>
