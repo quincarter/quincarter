@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Draw assets/activity-graph.svg: daily contributions over the last 31 days.
+"""Draw the commit activity graph: daily contributions over the last 31 days.
+
+Writes assets/activity-graph.svg (desktop) and assets/activity-graph-mobile.svg
+(narrow layout with larger text, swapped in on phones by the README).
 
 Reads the contribution calendar from the GitHub GraphQL API, so GITHUB_TOKEN
 must be set (any token works for public contributions).
@@ -34,8 +37,11 @@ BG, GRID, EDGE = "#050810", "#0e1a30", "#1a2a4a"
 BLUE, VIOLET, CREAM, MUTED, PULSE = "#4fbcff", "#a78bfa", "#fef3c7", "#a5b4cf", "#7ddbff"
 MONO = "'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
-W, H = 1200, 320
-LEFT, RIGHT, TOP, BOTTOM = 70, 40, 80, 50
+# Canvas, margins, font sizes and x-label spacing per output
+DESKTOP = dict(W=1200, H=320, left=70, right=40, top=80, bottom=50,
+               title=20, sub=10, total=20, axis=10, label_every=5, dot=3.2, stroke=2.5)
+MOBILE = dict(W=600, H=420, left=56, right=28, top=110, bottom=56,
+              title=28, sub=15, total=30, axis=16, label_every=10, dot=5, stroke=4)
 
 
 def fetch_days(user):
@@ -91,7 +97,9 @@ def nice_max(v):
     return step * 4, step
 
 
-def render(days):
+def render(days, L=DESKTOP):
+    W, H = L["W"], L["H"]
+    LEFT, RIGHT, TOP, BOTTOM = L["left"], L["right"], L["top"], L["bottom"]
     counts = [c for _, c in days]
     total, peak = sum(counts), max(counts)
     ymax, ystep = nice_max(max(peak, 1))
@@ -123,38 +131,46 @@ def render(days):
       "@keyframes draw{to{stroke-dashoffset:0}}@keyframes rise{to{opacity:1}}</style>")
     a(f'<rect width="{W}" height="{H}" rx="8" fill="{BG}"/>')
 
-    # header
-    a(f'<text x="{LEFT}" y="40" font-size="20" letter-spacing="2" fill="{CREAM}">commit signals</text>')
+    # header: title + date span on the left, total + peak on the right
+    t, sub = L["title"], L["sub"]
+    y1, y2 = 20 + t, 20 + t + sub * 2
     span = f"LAST {DAYS} DAYS · {start:%b %d} → {end:%b %d}".upper()
-    a(f'<text x="{LEFT}" y="60" font-size="10" letter-spacing="3" fill="{MUTED}">{span}</text>')
-    a(f'<text x="{W - RIGHT}" y="40" font-size="20" text-anchor="end" fill="{CREAM}">{total}</text>')
-    a(f'<text x="{W - RIGHT}" y="60" font-size="10" letter-spacing="3" text-anchor="end" fill="{MUTED}">'
-      f"CONTRIBUTIONS · PEAK {peak}/DAY</text>")
+    peak_label = f"CONTRIBUTIONS · PEAK {peak}/DAY" if W >= 1000 else f"PEAK {peak}/DAY"
+    a(f'<text x="{LEFT}" y="{y1}" font-size="{t}" letter-spacing="2" fill="{CREAM}">commit signals</text>')
+    a(f'<text x="{LEFT}" y="{y2}" font-size="{sub}" letter-spacing="{2 if W < 1000 else 3}" fill="{MUTED}">{span}</text>')
+    a(f'<text x="{W - RIGHT}" y="{y1}" font-size="{L["total"]}" text-anchor="end" fill="{CREAM}">{total}</text>')
+    a(f'<text x="{W - RIGHT}" y="{y2}" font-size="{sub}" letter-spacing="{2 if W < 1000 else 3}" text-anchor="end" '
+      f'fill="{MUTED}">{peak_label}</text>')
 
     # grid + y labels
     for v in range(0, ymax + 1, ystep):
         gy = y(v)
         a(f'<line x1="{LEFT}" y1="{gy:.1f}" x2="{W - RIGHT}" y2="{gy:.1f}" stroke="{GRID if v else EDGE}"/>')
-        a(f'<text x="{LEFT - 14}" y="{gy + 4:.1f}" font-size="10" text-anchor="end" fill="{MUTED}">{v}</text>')
-    # x labels every 5 days, plus the last day
+        a(f'<text x="{LEFT - 12}" y="{gy + L["axis"] * 0.35:.1f}" font-size="{L["axis"]}" text-anchor="end" '
+          f'fill="{MUTED}">{v}</text>')
+    # x labels every few days, plus the last day (clamped so edge labels stay on the canvas)
+    every = L["label_every"]
     for i, (date, _) in enumerate(days):
-        if i % 5 == 0 or i == len(days) - 1:
+        if i % every == 0 or i == len(days) - 1:
+            if i == len(days) - 1 and i % every and i % every < every / 2:
+                continue  # too close to the previous label
             d = datetime.date.fromisoformat(date)
-            a(f'<text x="{x(i):.1f}" y="{H - 20}" font-size="10" text-anchor="middle" fill="{MUTED}">'
-              f"{d:%b} {d.day}</text>")
+            anchor = "start" if i == 0 else "end" if i == len(days) - 1 else "middle"
+            a(f'<text x="{x(i):.1f}" y="{H - BOTTOM + L["axis"] * 2:.1f}" font-size="{L["axis"]}" '
+              f'text-anchor="{anchor}" fill="{MUTED}">{d:%b} {d.day}</text>')
 
     # area, line, points
     a(f'<path d="{area}" fill="url(#fill)" class="rise"/>')
-    a(f'<use href="#line" xlink:href="#line" fill="none" stroke="url(#stroke)" stroke-width="2.5" '
+    a(f'<use href="#line" xlink:href="#line" fill="none" stroke="url(#stroke)" stroke-width="{L['stroke']}" '
       f'stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="draw" filter="url(#glow)"/>')
     a('<g class="rise">')
     for (px, py), c in zip(pts, counts):
         if c:
-            a(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="3.2" fill="{CREAM if c == peak else BLUE}"/>')
+            a(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="{L["dot"]}" fill="{CREAM if c == peak else BLUE}"/>')
     a("</g>")
 
     # a signal pulse travelling along the line, like the hero lattice
-    a(f'<circle r="4" fill="{PULSE}" filter="url(#glow)" opacity="0">'
+    a(f'<circle r="{L["dot"] + 1}" fill="{PULSE}" filter="url(#glow)" opacity="0">'
       f'<animateMotion dur="6s" begin="2.4s" repeatCount="indefinite"><mpath href="#line" xlink:href="#line"/></animateMotion>'
       f'<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="6s" begin="2.4s" repeatCount="indefinite"/>'
       "</circle>")
@@ -164,9 +180,10 @@ def render(days):
 
 def main():
     days = fetch_days(USER)
-    out = ROOT / "assets" / "activity-graph.svg"
-    out.write_text(render(days))
-    print(f"wrote {out.relative_to(ROOT)}: {sum(c for _, c in days)} contributions over {len(days)} days")
+    for name, layout in (("activity-graph.svg", DESKTOP), ("activity-graph-mobile.svg", MOBILE)):
+        out = ROOT / "assets" / name
+        out.write_text(render(days, layout))
+        print(f"wrote {out.relative_to(ROOT)}: {sum(c for _, c in days)} contributions over {len(days)} days")
 
 
 if __name__ == "__main__":
