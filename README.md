@@ -35,7 +35,10 @@
 </picture>
 
 <p align="center">
-  <img src="metrics-projects.svg" alt="Featured project cards and language breakdown" width="100%" />
+  <picture>
+    <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/quincarter/quincarter/main/assets/projects-mobile.svg" />
+    <img src="assets/projects.svg" alt="Featured project cards and languages across my repos" width="100%" />
+  </picture>
 </p>
 
 | | Repo | Description | Stars | Forks |
