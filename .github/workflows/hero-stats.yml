@@ -10,6 +10,7 @@ on:
     paths:
       - scripts/update_hero_stats.py
       - scripts/activity_graph.py
+      - scripts/project_cards.py
       - .github/workflows/hero-stats.yml
 
 jobs:
@@ -32,11 +33,19 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
 
+      - name: Draw project cards
+        continue-on-error: true
+        run: python3 scripts/project_cards.py "${{ github.repository_owner }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit & push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add assets/hero.svg assets/hero-mobile.svg assets/activity-graph.svg assets/activity-graph-mobile.svg README.md
+          # Everything these scripts draw lives in assets/; adding the folder
+          # tolerates a step that failed before writing its files
+          git add assets README.md
           git diff --cached --quiet && exit 0
           git commit -m "Update hero stats - [Skip GitHub Action]"
           # Other workflows push to main too; retry if we lose the race
