@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="261" viewBox="0 0 600 261" role="img" aria-label="marvel-champions-digital-game: A digital, rules-accurate implementation of Marvel Champions: The Card Game, driven by a deterministic rules engine.">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="261" viewBox="0 0 600 261" role="img" aria-label="marvel-champions-digital-game: A digital, fan made, rules-accurate implementation of Marvel Champions: The Card Game, driven by a deterministic rules engine.">
 <style>text{font-family:'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>
 <rect x="1" y="1" width="598" height="259" rx="12" fill="#0a1222" stroke="#1a2a4a" stroke-width="2"/>
 <text x="26" y="52" font-size="26" fill="#4fbcff">marvel-champions-digital-game</text>
 <text x="574" y="52" font-size="26" text-anchor="end" fill="#a5b4cf">↗</text>
-<text x="26" y="100.5" font-size="21" fill="#a5b4cf">A digital, rules-accurate implementation of</text>
-<text x="26" y="130.9" font-size="21" fill="#a5b4cf">Marvel Champions: The Card Game, driven by</text>
-<text x="26" y="161.3" font-size="21" fill="#a5b4cf">a deterministic rules engine.</text>
+<text x="26" y="100.5" font-size="21" fill="#a5b4cf">A digital, fan made, rules-accurate</text>
+<text x="26" y="130.9" font-size="21" fill="#a5b4cf">implementation of Marvel Champions: The</text>
+<text x="26" y="161.3" font-size="21" fill="#a5b4cf">Card Game, driven by a deterministic rules</text>
+<text x="26" y="191.8" font-size="21" fill="#a5b4cf">engine.</text>
 <circle cx="33" cy="228.0" r="7" fill="#3178c6"/>
-<text x="50" y="235" font-size="20" fill="#fef3c7" xml:space="preserve">TypeScript   ★ 17   ⑂ 2</text>
+<text x="50" y="235" font-size="20" fill="#fef3c7" xml:space="preserve">TypeScript   ★ 19   ⑂ 2</text>
 </svg>
