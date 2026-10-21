@@ -78,7 +78,7 @@
 <text x="812" y="256" font-size="18" fill="#a5b4cf">public repos</text>
 <text id="stat-repos" x="1170" y="256" font-size="22" text-anchor="end" fill="#fef3c7">84</text>
 <text x="812" y="284" font-size="18" fill="#a5b4cf">total stars</text>
-<text id="stat-stars" x="1170" y="284" font-size="22" text-anchor="end" fill="#fef3c7">69</text>
+<text id="stat-stars" x="1170" y="284" font-size="22" text-anchor="end" fill="#fef3c7">70</text>
 <text x="812" y="312" font-size="18" fill="#a5b4cf">followers</text>
 <text id="stat-followers" x="1170" y="312" font-size="22" text-anchor="end" fill="#fef3c7">11</text>
 <text x="812" y="340" font-size="18" fill="#a5b4cf">pull shark</text>
