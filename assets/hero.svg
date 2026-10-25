@@ -80,7 +80,7 @@
 <text x="812" y="284" font-size="18" fill="#a5b4cf">total stars</text>
 <text id="stat-stars" x="1170" y="284" font-size="22" text-anchor="end" fill="#fef3c7">75</text>
 <text x="812" y="312" font-size="18" fill="#a5b4cf">followers</text>
-<text id="stat-followers" x="1170" y="312" font-size="22" text-anchor="end" fill="#fef3c7">12</text>
+<text id="stat-followers" x="1170" y="312" font-size="22" text-anchor="end" fill="#fef3c7">13</text>
 <text x="812" y="340" font-size="18" fill="#a5b4cf">pull shark</text>
 <text x="1170" y="340" font-size="22" text-anchor="end" fill="#fef3c7">x3</text>
 <line x1="812" y1="358" x2="1170" y2="358" stroke="#1a2a4a"/>
