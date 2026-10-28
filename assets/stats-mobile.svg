@@ -3,26 +3,26 @@
 <rect width="600" height="1274" rx="10" fill="#050810"/>
 <text x="20" y="36" font-size="16" letter-spacing="3" fill="#a5b4cf">LAST 12 MONTHS</text>
 <rect x="20.0" y="52.0" width="273.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="40.0" y="114.0" font-size="40" fill="#fef3c7">1,384</text>
+<text x="40.0" y="114.0" font-size="40" fill="#fef3c7">1,432</text>
 <text x="40.0" y="142.0" font-size="17" letter-spacing="1" fill="#a5b4cf">contributions</text>
 <rect x="307.0" y="52.0" width="273.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="327.0" y="114.0" font-size="40" fill="#fef3c7">695</text>
+<text x="327.0" y="114.0" font-size="40" fill="#fef3c7">707</text>
 <text x="327.0" y="142.0" font-size="17" letter-spacing="1" fill="#a5b4cf">commits</text>
 <rect x="20.0" y="174.0" width="273.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="40.0" y="236.0" font-size="40" fill="#fef3c7">381</text>
+<text x="40.0" y="236.0" font-size="40" fill="#fef3c7">398</text>
 <text x="40.0" y="264.0" font-size="17" letter-spacing="1" fill="#a5b4cf">pull requests</text>
 <rect x="307.0" y="174.0" width="273.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="327.0" y="236.0" font-size="40" fill="#fef3c7">47</text>
+<text x="327.0" y="236.0" font-size="40" fill="#fef3c7">60</text>
 <text x="327.0" y="264.0" font-size="17" letter-spacing="1" fill="#a5b4cf">reviews</text>
 <rect x="20.0" y="296.0" width="560.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="40.0" y="358.0" font-size="40" fill="#fef3c7">75</text>
+<text x="40.0" y="358.0" font-size="40" fill="#fef3c7">81</text>
 <text x="40.0" y="386.0" font-size="17" letter-spacing="1" fill="#a5b4cf">issues</text>
 <text x="20" y="448" font-size="16" letter-spacing="3" fill="#a5b4cf">ALL TIME</text>
 <rect x="20.0" y="464.0" width="273.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="40.0" y="526.0" font-size="40" fill="#fef3c7">427</text>
+<text x="40.0" y="526.0" font-size="40" fill="#fef3c7">444</text>
 <text x="40.0" y="554.0" font-size="17" letter-spacing="1" fill="#a5b4cf">pull requests</text>
 <rect x="307.0" y="464.0" width="273.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="327.0" y="526.0" font-size="40" fill="#fef3c7">120</text>
+<text x="327.0" y="526.0" font-size="40" fill="#fef3c7">126</text>
 <text x="327.0" y="554.0" font-size="17" letter-spacing="1" fill="#a5b4cf">issues</text>
 <rect x="20.0" y="586.0" width="273.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
 <text x="40.0" y="648.0" font-size="40" fill="#fef3c7">26</text>
@@ -37,42 +37,42 @@
 <circle cx="27.0" cy="889.0" r="6" fill="#3178c6"/>
 <text x="42.0" y="896.0" font-size="20" fill="#fef3c7">TypeScript</text>
 <rect x="220.0" y="884.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="220.0" y="884.0" width="225.6" height="10" rx="5" fill="#3178c6"/>
+<rect x="220.0" y="884.0" width="226.6" height="10" rx="5" fill="#3178c6"/>
 <text x="580.0" y="896.0" font-size="20" text-anchor="end" fill="#a5b4cf">79%</text>
 <circle cx="27.0" cy="931.0" r="6" fill="#89e051"/>
 <text x="42.0" y="938.0" font-size="20" fill="#fef3c7">Shell</text>
 <rect x="220.0" y="926.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="220.0" y="926.0" width="10.8" height="10" rx="5" fill="#89e051"/>
-<text x="580.0" y="938.0" font-size="20" text-anchor="end" fill="#a5b4cf">3.8%</text>
+<rect x="220.0" y="926.0" width="10.6" height="10" rx="5" fill="#89e051"/>
+<text x="580.0" y="938.0" font-size="20" text-anchor="end" fill="#a5b4cf">3.7%</text>
 <circle cx="27.0" cy="973.0" r="6" fill="#fcb32c"/>
 <text x="42.0" y="980.0" font-size="20" fill="#fef3c7">MDX</text>
 <rect x="220.0" y="968.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="220.0" y="968.0" width="10.3" height="10" rx="5" fill="#fcb32c"/>
+<rect x="220.0" y="968.0" width="10.2" height="10" rx="5" fill="#fcb32c"/>
 <text x="580.0" y="980.0" font-size="20" text-anchor="end" fill="#a5b4cf">3.6%</text>
 <circle cx="27.0" cy="1015.0" r="6" fill="#3572A5"/>
 <text x="42.0" y="1022.0" font-size="20" fill="#fef3c7">Python</text>
 <rect x="220.0" y="1010.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="220.0" y="1010.0" width="8.7" height="10" rx="5" fill="#3572A5"/>
+<rect x="220.0" y="1010.0" width="8.5" height="10" rx="5" fill="#3572A5"/>
 <text x="580.0" y="1022.0" font-size="20" text-anchor="end" fill="#a5b4cf">3.0%</text>
 <circle cx="27.0" cy="1057.0" r="6" fill="#F05138"/>
 <text x="42.0" y="1064.0" font-size="20" fill="#fef3c7">Swift</text>
 <rect x="220.0" y="1052.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="220.0" y="1052.0" width="7.9" height="10" rx="5" fill="#F05138"/>
+<rect x="220.0" y="1052.0" width="7.7" height="10" rx="5" fill="#F05138"/>
 <text x="580.0" y="1064.0" font-size="20" text-anchor="end" fill="#a5b4cf">2.7%</text>
 <circle cx="27.0" cy="1099.0" r="6" fill="#A97BFF"/>
 <text x="42.0" y="1106.0" font-size="20" fill="#fef3c7">Kotlin</text>
 <rect x="220.0" y="1094.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="220.0" y="1094.0" width="6.6" height="10" rx="5" fill="#A97BFF"/>
+<rect x="220.0" y="1094.0" width="6.5" height="10" rx="5" fill="#A97BFF"/>
 <text x="580.0" y="1106.0" font-size="20" text-anchor="end" fill="#a5b4cf">2.3%</text>
 <circle cx="27.0" cy="1141.0" r="6" fill="#41b883"/>
 <text x="42.0" y="1148.0" font-size="20" fill="#fef3c7">Vue</text>
 <rect x="220.0" y="1136.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="220.0" y="1136.0" width="6.6" height="10" rx="5" fill="#41b883"/>
+<rect x="220.0" y="1136.0" width="6.5" height="10" rx="5" fill="#41b883"/>
 <text x="580.0" y="1148.0" font-size="20" text-anchor="end" fill="#a5b4cf">2.3%</text>
 <circle cx="27.0" cy="1183.0" r="6" fill="#e34c26"/>
 <text x="42.0" y="1190.0" font-size="20" fill="#fef3c7">HTML</text>
 <rect x="220.0" y="1178.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="220.0" y="1178.0" width="5.8" height="10" rx="5" fill="#e34c26"/>
+<rect x="220.0" y="1178.0" width="5.7" height="10" rx="5" fill="#e34c26"/>
 <text x="580.0" y="1190.0" font-size="20" text-anchor="end" fill="#a5b4cf">2.0%</text>
 <circle cx="27.0" cy="1225.0" r="6" fill="#ff5a03"/>
 <text x="42.0" y="1232.0" font-size="20" fill="#fef3c7">Astro</text>
