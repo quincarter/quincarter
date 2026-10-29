@@ -9,7 +9,7 @@
 
 <a href="https://quincarter.com"><img src="https://img.shields.io/badge/quincarter.com-050810?style=for-the-badge&logo=googlechrome&logoColor=4fbcff" alt="quincarter.com" /></a>
 <img src="https://img.shields.io/badge/Richmond,_VA-050810?style=for-the-badge&logo=googlemaps&logoColor=a78bfa" alt="Richmond, VA" />
-<a href="https://github.com/quincarter?tab=repositories"><img src="https://img.shields.io/badge/84_public_repos-050810?style=for-the-badge&logo=github&logoColor=fef3c7" alt="84 public repos" /></a>
+<a href="https://github.com/quincarter?tab=repositories"><img src="https://img.shields.io/badge/85_public_repos-050810?style=for-the-badge&logo=github&logoColor=fef3c7" alt="85 public repos" /></a>
 <a href="https://github.com/quincarter?tab=followers"><img src="https://img.shields.io/github/followers/quincarter?style=for-the-badge&logo=github&logoColor=4ade80&label=followers&labelColor=050810&color=1a2a4a" alt="followers" /></a>
 
 <a href="https://quincarter.com">

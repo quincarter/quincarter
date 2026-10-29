@@ -69,7 +69,7 @@
 <line x1="40" y1="566" x2="560" y2="566" stroke="#1a2a4a"/>
 <g font-family="'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
 <rect x="40" y="590" width="250" height="84" rx="8" fill="#0a1222" stroke="#1a2a4a"/>
-<text id="stat-repos" x="60" y="638" font-size="38" fill="#fef3c7">84</text>
+<text id="stat-repos" x="60" y="638" font-size="38" fill="#fef3c7">85</text>
 <text x="60" y="662" font-size="15" letter-spacing="2" fill="#a5b4cf">public repos</text>
 <rect x="310" y="590" width="250" height="84" rx="8" fill="#0a1222" stroke="#1a2a4a"/>
 <text id="stat-stars" x="330" y="638" font-size="38" fill="#fef3c7">75</text>
