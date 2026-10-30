@@ -72,7 +72,7 @@
 <text id="stat-repos" x="60" y="638" font-size="38" fill="#fef3c7">85</text>
 <text x="60" y="662" font-size="15" letter-spacing="2" fill="#a5b4cf">public repos</text>
 <rect x="310" y="590" width="250" height="84" rx="8" fill="#0a1222" stroke="#1a2a4a"/>
-<text id="stat-stars" x="330" y="638" font-size="38" fill="#fef3c7">75</text>
+<text id="stat-stars" x="330" y="638" font-size="38" fill="#fef3c7">77</text>
 <text x="330" y="662" font-size="15" letter-spacing="2" fill="#a5b4cf">total stars</text>
 <rect x="40" y="690" width="250" height="84" rx="8" fill="#0a1222" stroke="#1a2a4a"/>
 <text id="stat-followers" x="60" y="738" font-size="38" fill="#fef3c7">13</text>
