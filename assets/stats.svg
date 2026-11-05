@@ -3,16 +3,16 @@
 <rect width="1200" height="620" rx="10" fill="#050810"/>
 <text x="24" y="40" font-size="16" letter-spacing="3" fill="#a5b4cf">LAST 12 MONTHS</text>
 <rect x="24.0" y="56.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="44.0" y="118.0" font-size="40" fill="#fef3c7">1,696</text>
+<text x="44.0" y="118.0" font-size="40" fill="#fef3c7">1,700</text>
 <text x="44.0" y="148.0" font-size="17" letter-spacing="1" fill="#a5b4cf">contributions</text>
 <rect x="257.6" y="56.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="277.6" y="118.0" font-size="40" fill="#fef3c7">800</text>
+<text x="277.6" y="118.0" font-size="40" fill="#fef3c7">801</text>
 <text x="277.6" y="148.0" font-size="17" letter-spacing="1" fill="#a5b4cf">commits</text>
 <rect x="491.2" y="56.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
 <text x="511.2" y="118.0" font-size="40" fill="#fef3c7">481</text>
 <text x="511.2" y="148.0" font-size="17" letter-spacing="1" fill="#a5b4cf">pull requests</text>
 <rect x="724.8" y="56.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="744.8" y="118.0" font-size="40" fill="#fef3c7">116</text>
+<text x="744.8" y="118.0" font-size="40" fill="#fef3c7">119</text>
 <text x="744.8" y="148.0" font-size="17" letter-spacing="1" fill="#a5b4cf">reviews</text>
 <rect x="958.4" y="56.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
 <text x="978.4" y="118.0" font-size="40" fill="#fef3c7">112</text>
@@ -37,7 +37,7 @@
 <circle cx="31.0" cy="409.0" r="6" fill="#3178c6"/>
 <text x="46.0" y="416.0" font-size="20" fill="#fef3c7">TypeScript</text>
 <rect x="224.0" y="404.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="224.0" y="404.0" width="233.1" height="10" rx="5" fill="#3178c6"/>
+<rect x="224.0" y="404.0" width="233.2" height="10" rx="5" fill="#3178c6"/>
 <text x="584.0" y="416.0" font-size="20" text-anchor="end" fill="#a5b4cf">82%</text>
 <circle cx="31.0" cy="449.0" r="6" fill="#89e051"/>
 <text x="46.0" y="456.0" font-size="20" fill="#fef3c7">Shell</text>
@@ -47,7 +47,7 @@
 <circle cx="31.0" cy="489.0" r="6" fill="#fcb32c"/>
 <text x="46.0" y="496.0" font-size="20" fill="#fef3c7">MDX</text>
 <rect x="224.0" y="484.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="224.0" y="484.0" width="9.1" height="10" rx="5" fill="#fcb32c"/>
+<rect x="224.0" y="484.0" width="9.0" height="10" rx="5" fill="#fcb32c"/>
 <text x="584.0" y="496.0" font-size="20" text-anchor="end" fill="#a5b4cf">3.2%</text>
 <circle cx="31.0" cy="529.0" r="6" fill="#3572A5"/>
 <text x="46.0" y="536.0" font-size="20" fill="#fef3c7">Python</text>
