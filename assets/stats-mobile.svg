@@ -3,7 +3,7 @@
 <rect width="600" height="1274" rx="10" fill="#050810"/>
 <text x="20" y="36" font-size="16" letter-spacing="3" fill="#a5b4cf">LAST 12 MONTHS</text>
 <rect x="20.0" y="52.0" width="273.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="40.0" y="114.0" font-size="40" fill="#fef3c7">1,711</text>
+<text x="40.0" y="114.0" font-size="40" fill="#fef3c7">1,713</text>
 <text x="40.0" y="142.0" font-size="17" letter-spacing="1" fill="#a5b4cf">contributions</text>
 <rect x="307.0" y="52.0" width="273.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
 <text x="327.0" y="114.0" font-size="40" fill="#fef3c7">806</text>
@@ -12,7 +12,7 @@
 <text x="40.0" y="236.0" font-size="40" fill="#fef3c7">483</text>
 <text x="40.0" y="264.0" font-size="17" letter-spacing="1" fill="#a5b4cf">pull requests</text>
 <rect x="307.0" y="174.0" width="273.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="327.0" y="236.0" font-size="40" fill="#fef3c7">123</text>
+<text x="327.0" y="236.0" font-size="40" fill="#fef3c7">125</text>
 <text x="327.0" y="264.0" font-size="17" letter-spacing="1" fill="#a5b4cf">reviews</text>
 <rect x="20.0" y="296.0" width="560.0" height="108" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
 <text x="40.0" y="358.0" font-size="40" fill="#fef3c7">112</text>
