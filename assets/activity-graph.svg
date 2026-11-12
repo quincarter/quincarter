@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="802 contributions over the last 31 days">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="803 contributions over the last 31 days">
 <defs>
 <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.45"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
 <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#4fbcff"/></linearGradient>
 <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<path id="line" d="M76.0 267.4 C88.0 272.3 100.1 282.2 112.1 282.2 C124.2 282.2 136.2 282.2 148.3 269.8 C160.3 257.5 172.4 227.8 184.4 207.9 C196.4 188.1 208.5 151.0 220.5 151.0 C232.6 151.0 244.6 220.3 256.7 220.3 C268.7 220.3 280.8 200.5 292.8 200.5 C304.8 200.5 316.9 259.9 328.9 259.9 C341.0 259.9 353.0 253.7 365.1 245.1 C377.1 236.4 389.2 207.9 401.2 207.9 C413.2 207.9 425.3 222.8 437.3 222.8 C449.4 222.8 461.4 198.1 473.5 198.1 C485.5 198.1 497.6 282.2 509.6 282.2 C521.6 282.2 533.7 239.2 545.7 235.2 C557.8 231.1 569.8 234.0 581.9 227.8 C593.9 221.5 606.0 153.5 618.0 151.0 C630.0 148.6 642.1 148.6 654.1 148.6 C666.2 148.6 678.2 232.7 690.3 232.7 C702.3 232.7 714.4 211.2 726.4 193.1 C738.4 174.9 750.5 123.8 762.5 123.8 C774.6 123.8 786.6 200.9 798.7 225.3 C810.7 249.6 822.8 269.8 834.8 269.8 C846.8 269.8 858.9 262.4 870.9 262.4 C883.0 262.4 895.0 297.0 907.1 297.0 C919.1 297.0 931.2 277.2 943.2 277.2 C955.2 277.2 967.3 290.5 979.3 294.6 C991.4 298.7 1003.4 302.0 1015.5 302.0 C1027.5 302.0 1039.6 302.0 1051.6 302.0 C1063.6 302.0 1075.7 302.0 1087.7 294.6 C1099.8 287.2 1111.8 225.3 1123.9 225.3 C1135.9 225.3 1148.0 274.8 1160.0 299.5"/>
+<path id="line" d="M76.0 282.2 C88.0 278.3 100.1 281.6 112.1 269.8 C124.2 258.1 136.2 227.8 148.3 207.9 C160.3 188.1 172.4 151.0 184.4 151.0 C196.4 151.0 208.5 220.3 220.5 220.3 C232.6 220.3 244.6 200.5 256.7 200.5 C268.7 200.5 280.8 259.9 292.8 259.9 C304.8 259.9 316.9 253.7 328.9 245.1 C341.0 236.4 353.0 207.9 365.1 207.9 C377.1 207.9 389.2 222.8 401.2 222.8 C413.2 222.8 425.3 198.1 437.3 198.1 C449.4 198.1 461.4 282.2 473.5 282.2 C485.5 282.2 497.6 239.2 509.6 235.2 C521.6 231.1 533.7 234.0 545.7 227.8 C557.8 221.5 569.8 153.5 581.9 151.0 C593.9 148.6 606.0 148.6 618.0 148.6 C630.0 148.6 642.1 232.7 654.1 232.7 C666.2 232.7 678.2 211.2 690.3 193.1 C702.3 174.9 714.4 123.8 726.4 123.8 C738.4 123.8 750.5 200.9 762.5 225.3 C774.6 249.6 786.6 269.8 798.7 269.8 C810.7 269.8 822.8 262.4 834.8 262.4 C846.8 262.4 858.9 297.0 870.9 297.0 C883.0 297.0 895.0 277.2 907.1 277.2 C919.1 277.2 931.2 290.5 943.2 294.6 C955.2 298.7 967.3 302.0 979.3 302.0 C991.4 302.0 1003.4 302.0 1015.5 302.0 C1027.5 302.0 1039.6 302.0 1051.6 294.6 C1063.6 287.2 1075.7 230.2 1087.7 230.2 C1099.8 230.2 1111.8 272.4 1123.9 277.2 C1135.9 282.1 1148.0 281.3 1160.0 282.2"/>
 </defs>
 <style>text{font-family:'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.4s ease-out forwards}.rise{opacity:0;animation:rise .8s ease-out 1.6s forwards}@keyframes draw{to{stroke-dashoffset:0}}@keyframes rise{to{opacity:1}}</style>
 <rect width="1200" height="360" rx="8" fill="#050810"/>
 <text x="76" y="48" font-size="28" letter-spacing="2" fill="#fef3c7">commit signals</text>
-<text x="76" y="78" font-size="15" letter-spacing="3" fill="#a5b4cf">LAST 31 DAYS · OCT 12 → NOV 11</text>
-<text x="1160" y="48" font-size="28" text-anchor="end" fill="#fef3c7">802</text>
+<text x="76" y="78" font-size="15" letter-spacing="3" fill="#a5b4cf">LAST 31 DAYS · OCT 13 → NOV 12</text>
+<text x="1160" y="48" font-size="28" text-anchor="end" fill="#fef3c7">803</text>
 <text x="1160" y="78" font-size="15" letter-spacing="3" text-anchor="end" fill="#a5b4cf">CONTRIBUTIONS · PEAK 72/DAY</text>
 <line x1="76" y1="302.0" x2="1160" y2="302.0" stroke="#1a2a4a"/>
 <text x="64" y="307.2" font-size="15" text-anchor="end" fill="#a5b4cf">0</text>
@@ -21,45 +21,45 @@
 <text x="64" y="158.8" font-size="15" text-anchor="end" fill="#a5b4cf">60</text>
 <line x1="76" y1="104.0" x2="1160" y2="104.0" stroke="#0e1a30"/>
 <text x="64" y="109.2" font-size="15" text-anchor="end" fill="#a5b4cf">80</text>
-<text x="76.0" y="332.0" font-size="15" text-anchor="start" fill="#a5b4cf">Oct 12</text>
-<text x="256.7" y="332.0" font-size="15" text-anchor="middle" fill="#a5b4cf">Oct 17</text>
-<text x="437.3" y="332.0" font-size="15" text-anchor="middle" fill="#a5b4cf">Oct 22</text>
-<text x="618.0" y="332.0" font-size="15" text-anchor="middle" fill="#a5b4cf">Oct 27</text>
-<text x="798.7" y="332.0" font-size="15" text-anchor="middle" fill="#a5b4cf">Nov 1</text>
-<text x="979.3" y="332.0" font-size="15" text-anchor="middle" fill="#a5b4cf">Nov 6</text>
-<text x="1160.0" y="332.0" font-size="15" text-anchor="end" fill="#a5b4cf">Nov 11</text>
-<path d="M76.0 267.4 C88.0 272.3 100.1 282.2 112.1 282.2 C124.2 282.2 136.2 282.2 148.3 269.8 C160.3 257.5 172.4 227.8 184.4 207.9 C196.4 188.1 208.5 151.0 220.5 151.0 C232.6 151.0 244.6 220.3 256.7 220.3 C268.7 220.3 280.8 200.5 292.8 200.5 C304.8 200.5 316.9 259.9 328.9 259.9 C341.0 259.9 353.0 253.7 365.1 245.1 C377.1 236.4 389.2 207.9 401.2 207.9 C413.2 207.9 425.3 222.8 437.3 222.8 C449.4 222.8 461.4 198.1 473.5 198.1 C485.5 198.1 497.6 282.2 509.6 282.2 C521.6 282.2 533.7 239.2 545.7 235.2 C557.8 231.1 569.8 234.0 581.9 227.8 C593.9 221.5 606.0 153.5 618.0 151.0 C630.0 148.6 642.1 148.6 654.1 148.6 C666.2 148.6 678.2 232.7 690.3 232.7 C702.3 232.7 714.4 211.2 726.4 193.1 C738.4 174.9 750.5 123.8 762.5 123.8 C774.6 123.8 786.6 200.9 798.7 225.3 C810.7 249.6 822.8 269.8 834.8 269.8 C846.8 269.8 858.9 262.4 870.9 262.4 C883.0 262.4 895.0 297.0 907.1 297.0 C919.1 297.0 931.2 277.2 943.2 277.2 C955.2 277.2 967.3 290.5 979.3 294.6 C991.4 298.7 1003.4 302.0 1015.5 302.0 C1027.5 302.0 1039.6 302.0 1051.6 302.0 C1063.6 302.0 1075.7 302.0 1087.7 294.6 C1099.8 287.2 1111.8 225.3 1123.9 225.3 C1135.9 225.3 1148.0 274.8 1160.0 299.5 L1160.0 302 L76.0 302 Z" fill="url(#fill)" class="rise"/>
+<text x="76.0" y="332.0" font-size="15" text-anchor="start" fill="#a5b4cf">Oct 13</text>
+<text x="256.7" y="332.0" font-size="15" text-anchor="middle" fill="#a5b4cf">Oct 18</text>
+<text x="437.3" y="332.0" font-size="15" text-anchor="middle" fill="#a5b4cf">Oct 23</text>
+<text x="618.0" y="332.0" font-size="15" text-anchor="middle" fill="#a5b4cf">Oct 28</text>
+<text x="798.7" y="332.0" font-size="15" text-anchor="middle" fill="#a5b4cf">Nov 2</text>
+<text x="979.3" y="332.0" font-size="15" text-anchor="middle" fill="#a5b4cf">Nov 7</text>
+<text x="1160.0" y="332.0" font-size="15" text-anchor="end" fill="#a5b4cf">Nov 12</text>
+<path d="M76.0 282.2 C88.0 278.3 100.1 281.6 112.1 269.8 C124.2 258.1 136.2 227.8 148.3 207.9 C160.3 188.1 172.4 151.0 184.4 151.0 C196.4 151.0 208.5 220.3 220.5 220.3 C232.6 220.3 244.6 200.5 256.7 200.5 C268.7 200.5 280.8 259.9 292.8 259.9 C304.8 259.9 316.9 253.7 328.9 245.1 C341.0 236.4 353.0 207.9 365.1 207.9 C377.1 207.9 389.2 222.8 401.2 222.8 C413.2 222.8 425.3 198.1 437.3 198.1 C449.4 198.1 461.4 282.2 473.5 282.2 C485.5 282.2 497.6 239.2 509.6 235.2 C521.6 231.1 533.7 234.0 545.7 227.8 C557.8 221.5 569.8 153.5 581.9 151.0 C593.9 148.6 606.0 148.6 618.0 148.6 C630.0 148.6 642.1 232.7 654.1 232.7 C666.2 232.7 678.2 211.2 690.3 193.1 C702.3 174.9 714.4 123.8 726.4 123.8 C738.4 123.8 750.5 200.9 762.5 225.3 C774.6 249.6 786.6 269.8 798.7 269.8 C810.7 269.8 822.8 262.4 834.8 262.4 C846.8 262.4 858.9 297.0 870.9 297.0 C883.0 297.0 895.0 277.2 907.1 277.2 C919.1 277.2 931.2 290.5 943.2 294.6 C955.2 298.7 967.3 302.0 979.3 302.0 C991.4 302.0 1003.4 302.0 1015.5 302.0 C1027.5 302.0 1039.6 302.0 1051.6 294.6 C1063.6 287.2 1075.7 230.2 1087.7 230.2 C1099.8 230.2 1111.8 272.4 1123.9 277.2 C1135.9 282.1 1148.0 281.3 1160.0 282.2 L1160.0 302 L76.0 302 Z" fill="url(#fill)" class="rise"/>
 <use href="#line" xlink:href="#line" fill="none" stroke="url(#stroke)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="draw" filter="url(#glow)"/>
 <g class="rise">
-<circle cx="76.0" cy="267.4" r="4.5" fill="#4fbcff"/>
-<circle cx="112.1" cy="282.2" r="4.5" fill="#4fbcff"/>
-<circle cx="148.3" cy="269.8" r="4.5" fill="#4fbcff"/>
-<circle cx="184.4" cy="207.9" r="4.5" fill="#4fbcff"/>
-<circle cx="220.5" cy="151.0" r="4.5" fill="#4fbcff"/>
-<circle cx="256.7" cy="220.3" r="4.5" fill="#4fbcff"/>
-<circle cx="292.8" cy="200.5" r="4.5" fill="#4fbcff"/>
-<circle cx="328.9" cy="259.9" r="4.5" fill="#4fbcff"/>
-<circle cx="365.1" cy="245.1" r="4.5" fill="#4fbcff"/>
-<circle cx="401.2" cy="207.9" r="4.5" fill="#4fbcff"/>
-<circle cx="437.3" cy="222.8" r="4.5" fill="#4fbcff"/>
-<circle cx="473.5" cy="198.1" r="4.5" fill="#4fbcff"/>
-<circle cx="509.6" cy="282.2" r="4.5" fill="#4fbcff"/>
-<circle cx="545.7" cy="235.2" r="4.5" fill="#4fbcff"/>
-<circle cx="581.9" cy="227.8" r="4.5" fill="#4fbcff"/>
-<circle cx="618.0" cy="151.0" r="4.5" fill="#4fbcff"/>
-<circle cx="654.1" cy="148.6" r="4.5" fill="#4fbcff"/>
-<circle cx="690.3" cy="232.7" r="4.5" fill="#4fbcff"/>
-<circle cx="726.4" cy="193.1" r="4.5" fill="#4fbcff"/>
-<circle cx="762.5" cy="123.8" r="4.5" fill="#fef3c7"/>
-<circle cx="798.7" cy="225.3" r="4.5" fill="#4fbcff"/>
-<circle cx="834.8" cy="269.8" r="4.5" fill="#4fbcff"/>
-<circle cx="870.9" cy="262.4" r="4.5" fill="#4fbcff"/>
-<circle cx="907.1" cy="297.0" r="4.5" fill="#4fbcff"/>
-<circle cx="943.2" cy="277.2" r="4.5" fill="#4fbcff"/>
-<circle cx="979.3" cy="294.6" r="4.5" fill="#4fbcff"/>
-<circle cx="1087.7" cy="294.6" r="4.5" fill="#4fbcff"/>
-<circle cx="1123.9" cy="225.3" r="4.5" fill="#4fbcff"/>
-<circle cx="1160.0" cy="299.5" r="4.5" fill="#4fbcff"/>
+<circle cx="76.0" cy="282.2" r="4.5" fill="#4fbcff"/>
+<circle cx="112.1" cy="269.8" r="4.5" fill="#4fbcff"/>
+<circle cx="148.3" cy="207.9" r="4.5" fill="#4fbcff"/>
+<circle cx="184.4" cy="151.0" r="4.5" fill="#4fbcff"/>
+<circle cx="220.5" cy="220.3" r="4.5" fill="#4fbcff"/>
+<circle cx="256.7" cy="200.5" r="4.5" fill="#4fbcff"/>
+<circle cx="292.8" cy="259.9" r="4.5" fill="#4fbcff"/>
+<circle cx="328.9" cy="245.1" r="4.5" fill="#4fbcff"/>
+<circle cx="365.1" cy="207.9" r="4.5" fill="#4fbcff"/>
+<circle cx="401.2" cy="222.8" r="4.5" fill="#4fbcff"/>
+<circle cx="437.3" cy="198.1" r="4.5" fill="#4fbcff"/>
+<circle cx="473.5" cy="282.2" r="4.5" fill="#4fbcff"/>
+<circle cx="509.6" cy="235.2" r="4.5" fill="#4fbcff"/>
+<circle cx="545.7" cy="227.8" r="4.5" fill="#4fbcff"/>
+<circle cx="581.9" cy="151.0" r="4.5" fill="#4fbcff"/>
+<circle cx="618.0" cy="148.6" r="4.5" fill="#4fbcff"/>
+<circle cx="654.1" cy="232.7" r="4.5" fill="#4fbcff"/>
+<circle cx="690.3" cy="193.1" r="4.5" fill="#4fbcff"/>
+<circle cx="726.4" cy="123.8" r="4.5" fill="#fef3c7"/>
+<circle cx="762.5" cy="225.3" r="4.5" fill="#4fbcff"/>
+<circle cx="798.7" cy="269.8" r="4.5" fill="#4fbcff"/>
+<circle cx="834.8" cy="262.4" r="4.5" fill="#4fbcff"/>
+<circle cx="870.9" cy="297.0" r="4.5" fill="#4fbcff"/>
+<circle cx="907.1" cy="277.2" r="4.5" fill="#4fbcff"/>
+<circle cx="943.2" cy="294.6" r="4.5" fill="#4fbcff"/>
+<circle cx="1051.6" cy="294.6" r="4.5" fill="#4fbcff"/>
+<circle cx="1087.7" cy="230.2" r="4.5" fill="#4fbcff"/>
+<circle cx="1123.9" cy="277.2" r="4.5" fill="#4fbcff"/>
+<circle cx="1160.0" cy="282.2" r="4.5" fill="#4fbcff"/>
 </g>
 <circle r="5.5" fill="#7ddbff" filter="url(#glow)" opacity="0"><animateMotion dur="6s" begin="2.4s" repeatCount="indefinite"><mpath href="#line" xlink:href="#line"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="6s" begin="2.4s" repeatCount="indefinite"/></circle>
 </svg>
