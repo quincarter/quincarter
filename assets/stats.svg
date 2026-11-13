@@ -3,23 +3,23 @@
 <rect width="1200" height="620" rx="10" fill="#050810"/>
 <text x="24" y="40" font-size="16" letter-spacing="3" fill="#a5b4cf">LAST 12 MONTHS</text>
 <rect x="24.0" y="56.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="44.0" y="118.0" font-size="40" fill="#fef3c7">1,761</text>
+<text x="44.0" y="118.0" font-size="40" fill="#fef3c7">1,771</text>
 <text x="44.0" y="148.0" font-size="17" letter-spacing="1" fill="#a5b4cf">contributions</text>
 <rect x="257.6" y="56.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="277.6" y="118.0" font-size="40" fill="#fef3c7">819</text>
+<text x="277.6" y="118.0" font-size="40" fill="#fef3c7">825</text>
 <text x="277.6" y="148.0" font-size="17" letter-spacing="1" fill="#a5b4cf">commits</text>
 <rect x="491.2" y="56.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="511.2" y="118.0" font-size="40" fill="#fef3c7">493</text>
+<text x="511.2" y="118.0" font-size="40" fill="#fef3c7">494</text>
 <text x="511.2" y="148.0" font-size="17" letter-spacing="1" fill="#a5b4cf">pull requests</text>
 <rect x="724.8" y="56.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="744.8" y="118.0" font-size="40" fill="#fef3c7">141</text>
+<text x="744.8" y="118.0" font-size="40" fill="#fef3c7">142</text>
 <text x="744.8" y="148.0" font-size="17" letter-spacing="1" fill="#a5b4cf">reviews</text>
 <rect x="958.4" y="56.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
 <text x="978.4" y="118.0" font-size="40" fill="#fef3c7">114</text>
 <text x="978.4" y="148.0" font-size="17" letter-spacing="1" fill="#a5b4cf">issues</text>
 <text x="24" y="210" font-size="16" letter-spacing="3" fill="#a5b4cf">ALL TIME</text>
 <rect x="24.0" y="226.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
-<text x="44.0" y="288.0" font-size="40" fill="#fef3c7">539</text>
+<text x="44.0" y="288.0" font-size="40" fill="#fef3c7">540</text>
 <text x="44.0" y="318.0" font-size="17" letter-spacing="1" fill="#a5b4cf">pull requests</text>
 <rect x="257.6" y="226.0" width="217.6" height="110" rx="10" fill="#0a1222" stroke="#1a2a4a"/>
 <text x="277.6" y="288.0" font-size="40" fill="#fef3c7">159</text>
@@ -37,12 +37,12 @@
 <circle cx="31.0" cy="409.0" r="6" fill="#3178c6"/>
 <text x="46.0" y="416.0" font-size="20" fill="#fef3c7">TypeScript</text>
 <rect x="224.0" y="404.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="224.0" y="404.0" width="234.4" height="10" rx="5" fill="#3178c6"/>
+<rect x="224.0" y="404.0" width="234.8" height="10" rx="5" fill="#3178c6"/>
 <text x="584.0" y="416.0" font-size="20" text-anchor="end" fill="#a5b4cf">82%</text>
 <circle cx="31.0" cy="449.0" r="6" fill="#89e051"/>
 <text x="46.0" y="456.0" font-size="20" fill="#fef3c7">Shell</text>
 <rect x="224.0" y="444.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="224.0" y="444.0" width="9.2" height="10" rx="5" fill="#89e051"/>
+<rect x="224.0" y="444.0" width="9.1" height="10" rx="5" fill="#89e051"/>
 <text x="584.0" y="456.0" font-size="20" text-anchor="end" fill="#a5b4cf">3.2%</text>
 <circle cx="31.0" cy="489.0" r="6" fill="#fcb32c"/>
 <text x="46.0" y="496.0" font-size="20" fill="#fef3c7">MDX</text>
@@ -62,12 +62,12 @@
 <circle cx="623.0" cy="409.0" r="6" fill="#A97BFF"/>
 <text x="638.0" y="416.0" font-size="20" fill="#fef3c7">Kotlin</text>
 <rect x="816.0" y="404.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="816.0" y="404.0" width="5.7" height="10" rx="5" fill="#A97BFF"/>
+<rect x="816.0" y="404.0" width="5.6" height="10" rx="5" fill="#A97BFF"/>
 <text x="1176.0" y="416.0" font-size="20" text-anchor="end" fill="#a5b4cf">2.0%</text>
 <circle cx="623.0" cy="449.0" r="6" fill="#41b883"/>
 <text x="638.0" y="456.0" font-size="20" fill="#fef3c7">Vue</text>
 <rect x="816.0" y="444.0" width="286.0" height="10" rx="5" fill="#1a2a4a"/>
-<rect x="816.0" y="444.0" width="5.7" height="10" rx="5" fill="#41b883"/>
+<rect x="816.0" y="444.0" width="5.6" height="10" rx="5" fill="#41b883"/>
 <text x="1176.0" y="456.0" font-size="20" text-anchor="end" fill="#a5b4cf">2.0%</text>
 <circle cx="623.0" cy="489.0" r="6" fill="#e34c26"/>
 <text x="638.0" y="496.0" font-size="20" fill="#fef3c7">HTML</text>
